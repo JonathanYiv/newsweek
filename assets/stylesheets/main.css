@@ -1,3 +1,32 @@
+/* Utility */
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+b {
+  font-weight: 700;
+}
+
+span.orange {
+  font-weight: 900;
+  color: #F5302A;
+}
+
+i {
+  color: grey;
+}
+
 /* Header */
 
 #header {
@@ -30,6 +59,7 @@
 
 span.button {
   padding: .5em;
+  margin-left: .3em;
   background-color: white;
   color: #F5302A;
 }
@@ -53,4 +83,122 @@ span.button {
 .navbar-default .navbar-nav>li>a#gray {
   font-weight: 400;
   color: gray;
+}
+
+/* Headline Section */
+#headline h1 {
+  font-size: 1.3em;
+  font-weight: 900;
+  color: #737373;
+}
+
+#headline ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#headline li {
+  font-size: 1.25em;
+  font-weight: 900;
+}
+
+#headline hr {
+  margin: .3em;
+}
+
+/* Headline Advertisement */
+aside {
+  padding: 1em;
+  background-color: #F4F5F6;
+}
+
+aside span.button {
+  padding: 1em;
+  font-weight: 900;
+  background-color: grey;
+  color: white;
+}
+
+aside small {
+  font-weight: 900;
+}
+
+/* Magazine Advertisement */
+aside h1 {
+  font-size: 1.5em;
+}
+
+/* Articles Section */
+.article h1 {
+  font-size: 1.5em;
+}
+
+aside ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+aside hr {
+  margin: .3em;
+}
+
+aside li {
+  font-size: 1.1em;
+}
+
+aside span.button {
+  background-color: #29A3DF;
+}
+
+/* Most Read Section */
+.most-read hr {
+  margin: 1em;
+}
+
+.most-read {
+  font-weight: 700;
+}
+
+/* Membership Section */
+.membership article {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid lightgrey;
+}
+
+.membership img {
+  height: 10vh;
+  width: auto;
+}
+
+.membership h1 {
+  font-size: 1.5em;
+}
+
+div.inside {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.membership span.button {
+  padding: 1em;
+  font-weight: 900;
+  color: white;
+  background-color: #F5302A;
+}
+
+/* Footer */
+
+footer .logo {
+  font-size: 4em;
+  font-weight: 900;
+  color: #F5302A;
+}
+
+footer .social-media {
+  line-height: 8em;
+}
+
+footer p {
+  color: grey;
 }
